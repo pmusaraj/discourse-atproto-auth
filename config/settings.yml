@@ -1,0 +1,9 @@
+plugins:
+  atproto_auth_enabled:
+    default: false
+    validator: "EnableAtprotoValidator"
+    area: "authenticators"
+  atproto_auth_private_key:
+    default: ""
+    secret: true
+    area: "authenticators"

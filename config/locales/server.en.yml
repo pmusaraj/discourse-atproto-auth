@@ -1,0 +1,16 @@
+en:
+  atproto:
+    handle_form:
+      title: "Login with Bluesky"
+      heading: "Login with Bluesky"
+      label: "Enter your Bluesky handle"
+      placeholder: "yourname.bsky.social"
+      hint: "Example: alice.bsky.social or your custom domain"
+      continue: "Continue"
+
+  site_settings:
+    atproto_auth_enabled: "Enable authentication via AT Protocol (Bluesky). Requires 'atproto auth private key' to be configured."
+    atproto_auth_private_key: "The ES256 private key in PEM format for signing AT Protocol OAuth requests. Generate with: openssl ecparam -genkey -name prime256v1 -noout"
+
+    errors:
+      atproto_auth_private_key_is_blank: "You must set 'atproto auth private key' before enabling this setting."
