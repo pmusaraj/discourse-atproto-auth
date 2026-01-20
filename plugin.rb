@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # name: discourse-atproto-auth
-# about: Enable authentication via AT Protocol (Bluesky)
+# about: Discourse authentication via AT Protocol (Bluesky)
 # version: 0.2.0
 # authors: Penar Musaraj, Claude Code
 # url: https://github.com/pmusaraj/discourse-atproto-auth
