@@ -2,6 +2,7 @@ en:
   site_settings:
     atproto_auth_enabled: "Enable authentication via AT Protocol (Bluesky). Requires 'atproto auth private key' to be configured."
     atproto_auth_private_key: "The ES256 private key in PEM format for signing AT Protocol OAuth requests. Generate with: openssl ecparam -genkey -name prime256v1 -noout"
+    atproto_auth_authorization_server: "The AT Protocol OAuth authorization server URL. Default is Bluesky's server."
 
     errors:
       atproto_auth_private_key_is_blank: "You must set 'atproto auth private key' before enabling this setting."

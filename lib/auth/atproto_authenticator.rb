@@ -20,6 +20,9 @@ class Auth::AtprotoAuthenticator < ::Auth::ManagedAuthenticator
                           strategy.options[:scope] = "atproto transition:email"
                           strategy.options[:private_key] = private_key
                           strategy.options[:client_jwk] = client_jwk
+                          strategy.options[
+                            :authorization_server
+                          ] = SiteSetting.atproto_auth_authorization_server
                         }
   end
 
