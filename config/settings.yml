@@ -5,7 +5,7 @@ plugins:
     area: "authenticators"
   atproto_auth_private_key:
     default: ""
-    secret: true
+    textarea: true
     area: "authenticators"
   atproto_auth_authorization_server:
     default: "https://bsky.social"
